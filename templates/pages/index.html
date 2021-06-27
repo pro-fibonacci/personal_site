@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Roland's potfolio</title>
+
+
+     {% load static %}
+  
+    
+    <script src="{% static './css/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static './css/scripts.js' %}"></script>
+    
+     
+
+
+
+  
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+
+    <div class="site-wrap">
+  
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+     
+      <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+  
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-center">
+            
+            <div class="">
+              <nav class="site-navigation position-relative text-right" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <li><a href="#home-section" class="nav-link">Home</a></li>
+                  <li><a href="#key-features" class="nav-link">Services</a></li>
+                  <li><a href="#home-section" class="nav-link">About</a></li>
+                  
+                </ul>
+              </nav>
+            </div>
+  
+            <div class=" text-center mx-5">
+              <h1 class="m-0 site-logo"><a href="#home-section">Me.</a></h1>
+            </div>
+  
+            <div class="text-left">
+  
+              <nav class="site-navigation position-relative" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <li><a href="#comment" class="nav-link">Client</a></li>
+                  <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+  
+  
+              <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+  
+            </div>
+  
+          </div>
+        </div>
+        
+      </header>
+  
+  
+      <div class="site-blocks-cover overlay bg-light" id="home-section">
+  
+        <div class="container">
+          <div class="row justify-content-center">
+  
+            <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h1 class="text-black">I'm roland obiora</h1>
+                  <p class="lead">I'm Web Design and  Developer Based in Nigeria.<br> I do alot of things </p>
+                  <p><a href="#contact" class="btn smoothscroll btn-primary">CONTACT</a></p>
+  
+                </div>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+       <div class="col-log-6">
+       <maquee> <img src="{% static './images/profile.jpg '%}" alt="Image" class="img-face" data-aos="fade"></maquee>
+      </div>
+        
+      </div>  
+  
+      
+
+
+      <!-- Hero Section End -->
+
+
+       
+    <section id="key-features"> 
+      <div class="container-key-features">
+        <span class="head">SERVICES</span>
+        <div class="row">
+          <div class="col-lg-4">
+           <img class="design-img" src="{% static './images/web design.png' %}"> 
+           <h1 class="feature-head"> Web and Logo Design </h1>
+           <h6 class="feature-desciption">
+             Provide you with premium logo design for both new and old companies and ventures . 
+             Also give best web pages prototypes and templates.
+           </h6>
+          </div>
+         
+          
+          <div class="col-lg-4">
+            <img class="developer-img" src="{% static './images/web developer.png' %}" alt="web developer images">
+            <h1 class="feature-head">Web development</h1>
+            <h6 class="feature-desciption">
+             Develop web pages, pure backend integrations both simple and complex. 
+             Major specializations on Node.js and Python Django frameworks
+           </h6>
+           
+         </div>
+         
+         <div class="col-lg-4">
+            <img class="database-image" src="{% static './images/database designer.png' %}" alt="database images">
+            <h1 class="feature-head">Database Designs </h1>
+            <h6 class="feature-desciption">
+            Provide specialized consolation on database archiect and design and insight to various forms of database
+            alongside with cyber security. 
+           </h6>
+         </div>
+         </div>
+      </div>
+     </section> 
+
+     
+     <!---comment section -->
+  <section id="comment">
+    <span class="comment-header">
+      REVIEWS
+    </span>
+    <div class="card">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card body comment-body " id="comment2">
+            "Played a major role in our work, he loves what he is doing"
+          </div>
+          <div class="footer">
+            <span><img class="comment-images" src="{% static './images/chibututu.jpg' %}"> CHIBUTUTU NNAMANI </span><br>
+            <span class="comment-occupation"> CEO muzikmylz</span>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card body comment-body" id="comment2">
+            "Partnered with him on a game development prototype" 
+          </div>
+          <div class="footer">
+            <span><img class="comment-images" src="{% static './images/racer.jpg' %}">  CHUKWUEBUKA RACER </span><br>
+            <span class="comment-occupation">GAME DEVELOPER</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="card body comment-body" id="comment2">
+            "Have worked with him on a lot of my companies work . he is above average"
+          </div>
+          <div class="footer">
+            <span><img class="comment-images" src="{% static './images/leroy.jpg' %}"> LEORY NNAEDOZIE </span><br>
+            <span class="comment-occupation">CEO  TECH ASSIST</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div id="comment2" class="card body comment-body" >
+          "Always available for collaboration . he loves to learn more"
+          </div>
+          <div class="footer">
+            <span><img class="comment-images" src="{% static './images/mc connell.jpg' %}"> MC CONNELL</span><br>
+            <span class="comment-occupation">Django developer</span>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+
+  </section>
+           <!---contact me-->
+           
+           <div id="contact">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="contact-title">Get in Touch</h2>
+              </div>
+    
+              </div>
+              <div class="col-lg-4">
+                <div class="media contact-info">
+                  <span class="contact-info__icon"><i class="ti-home"></i></span>
+                  <div class="media-body">
+                    <h3>NSUKKA, ENUGU STATE .</h3>
+                    <p>UNN, CA WAY</p>
+                  </div>
+                </div>
+                <div class="media contact-info">
+                  <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                  <div class="media-body">
+                    <h3>+234 8167366577</h3>
+                    <h3>+234 7059342066</h3>
+                    <p>Mon to Fri 9am to 6pm</p>
+                  </div>
+                </div>
+                <div class="media contact-info">
+                  <span class="contact-info__icon"><i class="ti-email"></i></span>
+                  <div class="media-body">
+                    <h3>send me mail:<a href="mailto:rolandobiora@gmail.com">rolandobiora@gmail.com</a> </h3>
+                    <p>Send us your query anytime!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- ================ contact section end ================= -->
+           </div>
+   <!-- Footer Section Begin -->
+   <footer class="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <a href="#"><img src="" alt=""></a>
+                    </div>
+                    <ul>
+                        <li>Address: UNN, Nsukka , Enugu state.</li>
+                        <li>Phone: +234 8167366577</li>
+                        <li>Email:rolandobiora@gmail.com</li>
+                    </ul>
+             
+              <div class="footer-social">
+                <a href="https://www.facebook.com/roland.chima.1004"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/__rolandobiora?r=nametag"><i class="fa fa-instagram"></i></a>
+                <a href="https://mobile.twitter.com/__rolandobiora"><i class="fa fa-twitter"></i></a>
+                
+            </div>
+          </div>
+          </div>
+          
+           
+            <div class="col-lg-2 offset-lg-1">
+                <div class="footer-widget">
+                    <h5>Information</h5>
+                    <ul>
+                        
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#key-features">Serivces</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="copyright-reserved">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="copyright-text">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | designed by <a href="" target="_blank">roland obiora</a>
+
+            </div>
+             </div>
+            </div>
+                  </div>
+                  </div>
+  </body>
+</html>
